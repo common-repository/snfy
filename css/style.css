@@ -1,0 +1,30 @@
+.snfy_wrapper{ margin: 35px 0 0 18px;}
+
+#snfy_news{ width:60%;text-align:justify;}
+#snfy_table{ border-top: 1px dotted #777;border-bottom: 1px dotted #777;padding: 10px 0 0 0;margin: 30px 0 0 0;}
+#snfy_table td{ padding: 5px 0;}
+
+.snfy_error{ font-size:11px;color:#de2336;}
+.snfy_success{ width:250px;color:#2786B2;font-size:12px;}
+
+#snfy_table input[type=text]{	border: 1px solid #666;}
+#snfy_table input[type=text]:focus{ border: 1px solid #174B5F;background-color:#2786B2;color:#fff;}
+#snfy_table select{ border: 1px solid #666; }
+#snfy_table select:focus{ border: 1px solid #174B5F;background-color:#2786B2;color:#fff;}
+#snfy_table select option{ padding: 1px 5px;}
+
+#scrollbar { margin: 20px 0 10px; border:1px solid #222;padding:3px;background-color:#EFEFEF;}
+#scrollbar .viewport { overflow: hidden; position: relative; }
+#scrollbar .overview { list-style: none; position: absolute; left: 0; top: 0; padding: 0; margin: 0; }
+#scrollbar .overview .title{font-size:12px; font-family:Verdana;margin:0 3px 10px 0;font-weight:bold;color:#222;border:2px solid #7F7F7F;background-color:#CFCFCF;text-align:center;padding:4px 0 2px 0;}
+#scrollbar .overview ul { list-style-position:inside;padding:0; margin:0;list-style:none;}
+#scrollbar .overview ul li{ font-family:Calibri;font-size:13px;padding:3px 0 2px 5px;border-bottom:1px dotted #444;}
+#scrollbar .overview ul li:hover{ background-color:#A8A8A8;border:1px solid #222;}
+#scrollbar .overview ul li:hover a{ color:#fff;}
+#scrollbar .overview ul li a{ color:#2FA2FF;}
+#scrollbar .overview ul li a:hover{ color:#fff;}
+#scrollbar .scrollbar{ background: transparent url(../images/bg-scrollbar-track-y.png) no-repeat 0 0; position: relative; background-position: 0 0; float: right; width: 15px; }
+#scrollbar .track { background: transparent url(../images/bg-scrollbar-trackend-y.png) no-repeat 0 100%; height: 100%; width:13px; position: relative; padding: 0 1px; }
+#scrollbar .thumb { background: transparent url(../images/bg-scrollbar-thumb-y.png) no-repeat 50% 100%; height: 20px; width: 25px; cursor: pointer; overflow: hidden; position: absolute; top: 0; left: -5px; }
+#scrollbar .thumb .end { background: transparent url(../images/bg-scrollbar-thumb-y.png) no-repeat 50% 0; overflow: hidden; height: 5px; width: 25px; }
+#scrollbar .disable { display: none; }
